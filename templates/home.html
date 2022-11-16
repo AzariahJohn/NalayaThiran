@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block style %} <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" {% endblock %}
+
+{% block body %}
+<title>Home Page</title>
+<div class="outer-container">
+    <div class="spec-container">
+        <h2 class="enter-details-title">Job Details</h2>
+        <input class="jd-input" type="input" placeholder="Job Role Please..." />
+        <input class="jd-input" type="input" placeholder="Your Location Please..." />
+        <button class="search-btn">Search</button>
+    </div>
+</div>
+{% endblock %}
