@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block style %} <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}"> {% endblock %}
+
+{% block body %}
+<title>Home Page</title>
+<div class="outer-container">
+    <div class="spec-container">
+        <h2 class="enter-details-title">Job Details</h2>
+        <input class="jd-input" type="input" placeholder="Job Role Please..." />
+        <input class="jd-input" type="input" placeholder="Your Location Please..." />
+        <button class="search-btn">Search</button>
+    </div>
+    <div class="job-container">
+        <h2 class="jc-title">
+            Your Search Results are,
+        </h2>
+        <div class="card-container">
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <h1>Name of the Job</h1>
+                <p>Short description for the job</p>
+                <div class="button-container">
+                    <button>Apply</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

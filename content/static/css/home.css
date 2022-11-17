@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 60px;
 }
 
@@ -46,6 +47,54 @@
 }
 
 .search-btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.job-container{
+    background-color: rgb(124, 196, 172);
+    margin-top: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.job-card{
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.job-card h1{
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.job-card p{
+    margin-bottom: 15px;
+    color: rgb(79, 79, 79);
+}
+
+.job-card button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(94, 144, 173);
+    color: white;
+    transition: all 0.5s ease-in-out;
+    margin-right: 5px;
+}
+
+.job-card button:hover{
     background-color: black;
     transform: scale(1.1);
 }
